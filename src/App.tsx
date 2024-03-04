@@ -11,9 +11,11 @@ const router = createBrowserRouter([
 
 function App() {
   return (
-    <Layout>
-      <RouterProvider router={router} />
-    </Layout>
+    <div className="box-border h-screen bg-gray-200 p-4">
+      <Layout>
+        <RouterProvider router={router} />
+      </Layout>
+    </div>
   );
 }
 

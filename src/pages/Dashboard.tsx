@@ -9,7 +9,7 @@ import TodaySales from "../components/dashboard/todaySales/TodaySales";
 
 export default function Dashboard() {
   return (
-    <div className="space-y-4">
+    <div className="flex flex-1 flex-col space-y-4">
       <TodaySales />
       <div className="flex gap-x-4">
         <WeeklySales />
@@ -17,7 +17,7 @@ export default function Dashboard() {
         <Profit />
         <ProductClass />
       </div>
-      <div className="flex gap-x-4">
+      <div className="flex flex-1 gap-x-4">
         <CustomerSatisfaction />
         <RecentOrders />
         <SaleTarget />

@@ -48,7 +48,7 @@ const options = {
 
 export default function WeeklySales() {
   return (
-    <div className="card w-84">
+    <div className="card">
       <h2 className="mb-2">Weekly Sales</h2>
       <div>
         <BarChart data={data} type="bar" options={options} />

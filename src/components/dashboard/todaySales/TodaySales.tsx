@@ -3,8 +3,8 @@ import SaleCardList from "./SaleCardList";
 
 export default function TodaySales() {
   return (
-    <div className="card" data-testid="sale-card-list">
-      <div className="mb-1 flex items-center justify-between">
+    <div className="card flex flex-col" data-testid="sale-card-list">
+      <div className="mb-2 flex items-center justify-between">
         <div>
           <h2>Today's Sales</h2>
           <h6>Sales Summary</h6>

@@ -10,13 +10,11 @@ export default function Layout({ children }: LayoutProps) {
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
   return (
-    <div className="min-h-screen bg-gray-200 p-4 font-sans text-gray-800">
+    <div className="h-full font-sans text-gray-800">
       <Navigation sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />
-      <div className="space-y-4 lg:flex lg:flex-col lg:pl-72">
+      <div className="h-full space-y-4 lg:flex lg:flex-col lg:pl-72">
         <Header setSidebarOpen={setSidebarOpen} />
-        <main className="flex-1">
-          <div>{children}</div>
-        </main>
+        <main className="flex flex-1 flex-col">{children}</main>
       </div>
     </div>
   );
