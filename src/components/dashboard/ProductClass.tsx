@@ -35,7 +35,7 @@ const options = {
 
 export default function ProductClass() {
   return (
-    <div className="card ">
+    <div className="card flex-1 ">
       <h2>Product Class</h2>
       <Doughnut
         data={data}

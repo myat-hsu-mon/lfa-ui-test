@@ -36,7 +36,7 @@ const data = [
 
 export default function RecentOrders() {
   return (
-    <div className="card">
+    <div className="card flex-1">
       <div className="mb-3 flex items-center justify-between">
         <h2>Recent Orders</h2>
         <span className="text-sm text-blue-500">See All</span>

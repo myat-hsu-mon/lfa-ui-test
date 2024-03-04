@@ -15,15 +15,11 @@ export default function Dashboard() {
         <WeeklySales />
         <Sales />
         <Profit />
-        <div className="flex-1">
-          <ProductClass />
-        </div>
+        <ProductClass />
       </div>
       <div className="flex gap-x-4">
         <CustomerSatisfaction />
-        <div className="flex-1">
-          <RecentOrders />
-        </div>
+        <RecentOrders />
         <SaleTarget />
       </div>
     </div>
