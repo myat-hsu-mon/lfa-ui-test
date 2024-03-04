@@ -139,16 +139,13 @@ export default function Navigation({
                           </button>
                         </div>
                         <li>
-                          <a
-                            href="#"
-                            className="group flex gap-x-3 rounded-md p-2 text-sm font-semibold leading-6 text-gray-500"
-                          >
+                          <span className="group flex gap-x-3 rounded-md p-2 text-sm font-semibold leading-6 text-gray-500">
                             <Cog6ToothIcon
                               className="h-6 w-6 shrink-0 text-gray-500"
                               aria-hidden="true"
                             />
                             Log Out
-                          </a>
+                          </span>
                         </li>
                       </div>
                     </ul>
@@ -210,16 +207,13 @@ export default function Navigation({
                   </button>
                 </div>
                 <li>
-                  <a
-                    href="#"
-                    className="group flex gap-x-3 rounded-md p-2 text-sm font-semibold leading-6 text-gray-500"
-                  >
+                  <span className="group flex gap-x-3 rounded-md p-2 text-sm font-semibold leading-6 text-gray-500">
                     <Cog6ToothIcon
                       className="h-6 w-6 shrink-0 text-gray-500"
                       aria-hidden="true"
                     />
                     Log Out
-                  </a>
+                  </span>
                 </li>
               </div>
             </ul>
